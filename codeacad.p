@@ -5,9 +5,9 @@ def censor(text, word):
     tear = text.split()
     new = ""
     for item in tear:
-        if item == word:
+        if i == word:
             new = new + ("*" * count)
         else:
-            new = new + item
-    sliced = new[1:]
-    return sliced
+            new = new + i
+    join = new[1:]
+    return join
